@@ -1,0 +1,22 @@
+/* Keep welcome tabs visible and aligned even if core styles change. */
+.welcomePanel .recentChatsTitle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.welcomePanel .welcomeTab[data-tab="recent"] {
+    white-space: nowrap;
+}
+
+.welcomePanel .welcomeTab[data-tab="all"] {
+    white-space: nowrap;
+}
+
+.welcomePanel .allChatsCharacterHeader {
+    padding-left: 4px;
+}
+
+.welcomePanel .allChatsCharacterHeader .toggleAllChatsGroup {
+    margin-left: -2px;
+}
